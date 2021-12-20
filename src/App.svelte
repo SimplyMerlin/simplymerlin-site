@@ -5,7 +5,7 @@
 
 <main class="bg-neutral-900 text-neutral-200">
   <div class="h-screen grid place-items-center selection:bg-sky-600">
-    <div class="font-serif text-center max-w-3xl">
+    <div class="font-serif text-center max-w-3xl p-3">
       <h1 class="text-4xl italic">
         "{chosenQuote.quote}"
       </h1>
