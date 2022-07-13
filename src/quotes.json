@@ -1,34 +1,34 @@
 {
-  "quotes": [
-    {
-      "author": "Stephen King",
-      "url": "https://www.udemy.com/user/ste-3/",
-      "quote": "Merlin is a top tier developer. He has been in the game as long as anyone, and has a real focus on the needs and requirements of his clients to ensure he exceeds their expectations.",
-      "date": "Dec 20, 2021"
-    },
-    {
-      "author": "Zcamt",
-      "url": "https://www.spigotmc.org/members/zcamt.394365/",
-      "quote": "Merlin is a very talented and creative developer, he always manages to amaze with whatever he makes and is an incredible inspiration to the community.",
-      "date": "Dec 20, 2021"
-    },
-    {
-      "author": "Aaron Duran",
-      "url": "https://github.com/duranaaron",
-      "quote": "Merlin is an incredibly reliable and friendly developer. With his experience your plugin will be to your exact liking.",
-      "date": "Dec 20, 2021"
-    },
-    {
-      "author": "Nesaak",
-      "url": "https://github.com/Nesaak",
-      "quote": "Merlin is a wizard when it comes to coding",
-      "date": "Dec 20, 2021"
-    },
-    {
-      "author": "Slohth",
-      "url": "https://github.com/slohth",
-      "quote": "Merlin never fails to amaze me with the dedication and effort he puts into all of his projects. His charisma makes him a wonderful addition to any team and I recommend anyone to work with him.",
-      "date": "Dec 20, 2021"
-    }
-  ]
+    "quotes": [
+        {
+            "author": "Stephen King",
+            "url": "https://www.udemy.com/user/ste-3/",
+            "quote": "Merlin is a top tier developer. He has been in the game as long as anyone, and has a real focus on the needs and requirements of his clients to ensure he exceeds their expectations.",
+            "date": "Dec 20, 2021"
+        },
+        {
+            "author": "Zcamt",
+            "url": "https://www.spigotmc.org/members/zcamt.394365/",
+            "quote": "Merlin is a very talented and creative developer, he always manages to amaze with whatever he makes and is an incredible inspiration to the community.",
+            "date": "Dec 20, 2021"
+        },
+        {
+            "author": "Aaron Duran",
+            "url": "https://github.com/duranaaron",
+            "quote": "Merlin is an incredibly reliable and friendly developer. With his experience your plugin will be to your exact liking.",
+            "date": "Dec 20, 2021"
+        },
+        {
+            "author": "Nesaak",
+            "url": "https://github.com/Nesaak",
+            "quote": "Merlin is a wizard when it comes to coding",
+            "date": "Dec 20, 2021"
+        },
+        {
+            "author": "Slohth",
+            "url": "https://github.com/slohth",
+            "quote": "Merlin never fails to amaze me with the dedication and effort he puts into all of his projects. His charisma makes him a wonderful addition to any team and I recommend anyone to work with him.",
+            "date": "Dec 20, 2021"
+        }
+    ]
 }
