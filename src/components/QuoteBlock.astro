@@ -1,0 +1,17 @@
+---
+import * as quoteCollection from '../quotes.json'
+const chosenQuote = quoteCollection.quotes[Math.floor(Math.random() * quoteCollection.quotes.length)];
+---
+
+<div class="grid place-items-center bg-black/20 rounded-lg max-w-lg">
+    <div class="font-serif text-center p-3">
+        <h1 class="text-3xl italic">
+            "{chosenQuote.quote}"
+        </h1>
+        <p class="mt-2">
+            <span>{chosenQuote.date}</span>
+            <span class="text-neutral-300">&middot;</span>
+            <span class="underline decoration-sky-400"><a href="{chosenQuote.url}" target="_blank">{chosenQuote.author}</a></span>
+        </p>
+    </div>
+</div>

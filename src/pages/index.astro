@@ -1,22 +1,61 @@
 ---
+import Footer from "../components/Footer.astro";
+import QuoteBlock from "../components/QuoteBlock.astro";
 import Layout from "../layouts/Layout.astro";
-import * as quoteCollection from '../quotes.json'
-const chosenQuote = quoteCollection.quotes[Math.floor(Math.random() * quoteCollection.quotes.length)];
 ---
 
 <Layout>
-	<main class="bg-neutral-900 text-neutral-200">
-		<div class="h-screen grid place-items-center selection:bg-sky-600">
-			<div class="font-serif text-center max-w-3xl p-3">
-				<h1 class="text-4xl italic">
-					"{chosenQuote.quote}"
-				</h1>
-				<p class="mt-4">
-					<span>{chosenQuote.date}</span>
-					<span class="text-neutral-300">&middot;</span>
-					<span class="underline decoration-sky-400"><a href="{chosenQuote.url}" target="_blank">{chosenQuote.author}</a></span>
+	<section class="container mx-auto">
+		<div class="grid md:grid-cols-2 my-16 px-4">
+			<div class="h-full grid items-center">
+				<div class="max-w-md">
+					<h1 class="text-4xl font-black">Hi, I'm Merlin.</h1>
+					<p class="text-neutral-500 text-lg font-light py-1">
+						I'm a dutch 17 year old developer that specialises in Web Development and Java.
+					</p>
+				</div>
+			</div>
+			<div class="grid items-center justify-items-center md:justify-items-end mt-8 lg:mt-0">
+				<QuoteBlock />
+			</div>
+		</div>
+	</section>
+	<section class="container mx-auto">
+		<div class="grid place-items-center my-16 px-4">
+			<div class="max-w-2xl text-center">
+				<h2 class="text-3xl font-bold mb-1">I write code and edit videos.</h2>
+				<p class="text-neutral-500 text-lg">
+					Those are my main interests. But there are other things I enjoy too! I have a passion for music production and love content creation. Both of these go hand in hand with editing which will in return create a better end product!
 				</p>
 			</div>
 		</div>
-	</main>
+	</section>
+	<section class="container mx-auto">
+		<div class="grid md:grid-cols-2 my-16 px-4">
+			<div class="grid items-center pr-4 py-4">
+				<h1 class="text-3xl font-bold">What I'm working on</h1>
+				<p class="text-neutral-500 text-lg my-1">
+					I'm a Minecraft Developer at heart. I've been making minecraft plugins for 6 years! That's right, my first line of code was written when I was just 10.
+				</p>
+				<p class="text-neutral-500 text-lg my-1">
+					After all those years I've finally decided to start making a dent in the Minecraft community. Introducing MineStars, a live Minecraft event made for creators.
+				</p>
+				<p class="text-neutral-500 text-lg my-1">
+					I'm the co founder of MineStars and I specialize in the development aspect. Over there we use Astro and SvelteKit for the web. For the server itself we use Java, Kotlin, Gradle, Kubernetes and GitLab for DevOps.
+				</p>
+			</div>
+				<div class="bg-[url('/minestars.png')] bg-cover bg-center w-full aspect-video md:aspect-auto md:w-auto" />
+		</div>
+	</section>
+	<section class="bg-black/20">
+		<div class="container mx-auto my-16 px-4">
+			<h1 class="text-3xl font-bold text-center py-4">Blog</h1>
+			<div class="grid grid-rows-1 justify-center justify-items-center gap-8 py-4">
+				<div class="bg-neutral-900 text-neutral-700 rounded-lg h-72 w-64 grid place-content-center">
+					Content here soon!
+				</div>
+			</div>
+		</div>
+	</section>
+	<Footer/>
 </Layout>
